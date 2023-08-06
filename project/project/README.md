@@ -26,12 +26,12 @@ yarn add expo
 npx expo start
 yarn start
 ```
-
+Scan the qr code
 Part 2: Running Computer Vision Model
 ```new terminal
 python detech.py --weights best.pt --img 640 --conf 0.25 --source 0
 ```
-Scan the qr code
+
 
 
 
