@@ -10,7 +10,11 @@ pip install -qr requirements.txt
 ```
 
 ## Usage
+As our team are facing some bugs with integrating our computer vision model into Front End code, you can run these 2 parts separately following these steps:
 
+
+
+Part 1: Running FE code
 ```terminal
 cd project
 cd api 
@@ -22,7 +26,8 @@ yarn add expo
 npx expo start
 yarn start
 ```
-*Only model: 
+
+Part 2: Running Computer Vision Model
 ```new terminal
 python detech.py --weights best.pt --img 640 --conf 0.25 --source 0
 ```
