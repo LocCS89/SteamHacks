@@ -22,7 +22,10 @@ yarn add expo
 npx expo start
 yarn start
 ```
-
+*Only model: 
+```new terminal
+python detech.py --weights best.pt --img 640 --conf 0.25 --source 0
+```
 Scan the qr code
 
 
